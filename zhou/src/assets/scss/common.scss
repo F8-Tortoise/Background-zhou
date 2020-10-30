@@ -1,0 +1,12 @@
+.manage {
+    height: 90%;
+    padding-bottom: 20px;
+    // overflow:hidden是当元素内的内容溢出的时候使它隐藏溢出的部分，即超出部分隐藏。
+    overflow: hidden;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        // 元素位于容器的开头。
+        align-items: flex-start;
+    }
+}
